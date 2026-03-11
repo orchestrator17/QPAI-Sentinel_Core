@@ -37,12 +37,8 @@ The sentinel operates on a **"Fail-Safe, Not Fail-Soft"** philosophy.
 * Linux Kernel 5.10+ (or WSL2)
 
 ### Building the Hardened Sentinel
-
+```bash
 g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
-
-
-### Running the Python Prototype
-python3 orchestrator.py
 
 
 ## Future Roadmap
