@@ -42,11 +42,13 @@ g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 
 
 ## Future Roadmap
-- [ ] Implementation of Shared Memory (SHM) for IPC.
-- [ ] Integration with Hardware Watchdog Timers via `/dev/watchdog`.
-- [ ] Formal verification of safety-loop timing logic.
+- [x] Logic Porting (Python to C++)
+- [ ] Implementation of Shared Memory (SHM) for IPC
+- [ ] Integration with Hardware Watchdog Timers via /dev/watchdog
+- [ ] Formal verification of safety-loop timing logic
 
----
+***
 
 ## Contact
-**Daniel Fike** [GitHub Profile](https://github.com/orchestrator17)
+**Daniel Fike**
+[GitHub Profile](https://github.com/orchestrator17)
