@@ -44,6 +44,6 @@ g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 
 ***
 
-## Contact
+Contact
 Daniel Fike
 github.com/orchestrator17
