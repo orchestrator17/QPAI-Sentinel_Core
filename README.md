@@ -45,6 +45,8 @@ g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 
 ***
 
+***
+
 ## Contact
-**Daniel Fike**
-[GitHub Profile](https://github.com/orchestrator17)
+**Daniel Fike** [View My GitHub Profile](https://github.com/orchestrator17)  
+Direct Link: https://github.com/orchestrator17
