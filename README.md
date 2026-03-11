@@ -12,8 +12,6 @@ This repository demonstrates a full engineering lifecycle:
 1. **Rapid Prototype (Python):** `orchestrator.py` and `exit_monitor.py` were used to validate the initial logic flow and state transitions.
 2. **Hardened Kernel (C++):** The logic was ported to native C++ to achieve POSIX compliance, sub-millisecond latency, and memory safety for deployment on edge-compute hardware.
 
-
-
 ## Core Features
 * **Deterministic Heartbeat Monitoring:** Implements low-latency signal checks.
 * **POSIX Signal Integration:** Leverages native Linux `SIGALRM` and `SIGKILL`.
@@ -26,8 +24,6 @@ The sentinel operates on a **"Fail-Safe, Not Fail-Soft"** philosophy.
 * **Watchdog.cpp:** Manages the primary monitoring thread using `std::chrono`.
 * **Signal Handling:** Implements custom handlers to maintain state awareness.
 * **Cross-Language Validation:** Logic remains consistent between the Python orchestrator and the C++ sentinel.
-
-
 
 ## Getting Started
 
