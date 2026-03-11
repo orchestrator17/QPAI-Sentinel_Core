@@ -41,14 +41,15 @@ The sentinel operates on a **"Fail-Safe, Not Fail-Soft"** philosophy.
 g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 
 
-## Future Roadmap
-- [x] Logic Porting (Python to C++)
-- [ ] Implementation of Shared Memory (SHM) for IPC
-- [ ] Integration with Hardware Watchdog Timers via /dev/watchdog
-- [ ] Formal verification of safety-loop timing logic
+Future Roadmap
+[x] Logic Porting (Python to C++)
 
-***
+[ ] Implementation of Shared Memory (SHM) for IPC
 
-## Contact
-**Daniel Fike**
-[GitHub Profile](https://github.com/orchestrator17)
+[ ] Integration with Hardware Watchdog Timers via /dev/watchdog
+
+[ ] Formal verification of safety-loop timing logic
+
+Contact
+Daniel Fike
+GitHub Profile
