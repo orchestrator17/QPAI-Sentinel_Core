@@ -33,7 +33,7 @@ The sentinel operates on a **"Fail-Safe, Not Fail-Soft"** philosophy.
 * Linux Kernel 5.10+ (or WSL2)
 
 ### Building the Hardened Sentinel
-```bash
+
 g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 
 
@@ -41,9 +41,10 @@ g++ -o watchdog_linux main.cpp Watchdog.cpp -lpthread
 - [x] Logic Porting (Python to C++)
 - [ ] Implementation of Shared Memory (SHM) for IPC
 - [ ] Integration with Hardware Watchdog Timers via /dev/watchdog
+- [ ] Formal verification of safety-loop timing logic
 
 ***
 
-Contact
-Daniel Fike
-github.com/orchestrator17
+## Contact
+**Daniel Fike** 
+* <a href="https://github.com/orchestrator17">View My GitHub Profile</a>
